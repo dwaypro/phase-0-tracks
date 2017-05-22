@@ -1,0 +1,46 @@
+1. Briefly describe your understanding of what the browser does, including definitions of the following: 
+ * client
+     - The client is also known as the user or the individual or computer that is making requests to a computer in order to receive the content needed. 
+ * server
+ 	 - The server is the computer and or software that is providing content to those who are permitted to request it. 
+ * render
+     - The browser renders content onto the page given the content received from the server.
+
+2. What is HTML? In your answer, include definitions of the following:      
+    tag
+    element
+    node
+    attribute
+    block element
+    inline element
+
+    - HTML is the markup language widely used in order to display the form and layout of websites. Tag is the term used to describe what encloses or surrounds elements, for example <html></html>, are the tags one may find when visiting a website. Element is the term to describe both the tag as well as the content inside- <p> this assignment is fun </p>  the whole thing is an element. Node is the term used to describe everything. Everything can be a node, even the html document itself. Elements can have child elements which are also nodes. Attribute is the term used to describe the behavior of certain elements, it can also include styling. Html elements tend to either be block or inline. Block level elements tend to stand alone on themselves. For example <p> this is a paragraph </p> is a block element. Inline elements can be injected inside block level elements on a single line. <p> this is a paragraph <br> I like to write </ p> the <br> is an inline element that breaks the paragraph into two lines 
+
+
+3. Very briefly explain the purpose of the following elements:
+ * head
+     - is the tag not to be confused with the header tag. head allows you to specify the text located on a browser tab. This is also where you want to place links to other file content outside of the current document, like css and javascript. 
+ * Body
+     - This is where you place the majority of the Elements for the website. 
+ * p
+ 	 - This is an element used to hold text content
+ * form 
+     - This is a tag used to create a form typically for user input.
+ * div
+ 	 - Is an element used as a container for pretty puch anything. Commonly used to mark sections of a document/web page. 
+ * span
+     - is similar to a div element, however is an inline container used to group content elements. 
+ * select
+ 	 - is an element used to control specific elements on a website, by referencing their id.
+ * h2
+ 	 - slightly smaller than H1. H2 represents the heading level and is the second level out of six total heading levels. 
+ * ol
+ 	 - is the element that represents an order lists. When child list items or li are added to this element, a corresponding integer will be applied to the list item. 
+ * ul
+     - is the element that represents and unordered list. When child list items or li are added to this element, a bullet point will be applied to the list item. 
+ * table
+ 	 - is the element that represents a table. Table contains several child elements like tr, th and td. 
+ * tr 
+ 	 - is a child element of table. used to create new table rows for a table. 
+ * td
+ 	 - is a child element of a table and table row. used to define an actual cell within a table and a table row. 
