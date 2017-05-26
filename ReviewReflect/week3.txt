@@ -1,0 +1,43 @@
+1.) Name at least three categories of CSS adjustments (example: colors)?
+  1.) Positioning
+  2.) Sizing
+  3.) tables
+  4.) fonts
+  5.) colors ...
+
+2.) What are the three ways to link a CSS rule to an HTML document? Which one is the best and why?
+  1.) Linking an external file sheet
+  2.) adding css directly to html elements inline
+  3.) Using the Head tag as an internal style sheet.
+
+   - The best of these three options would be to use an external file sheet. This improves the readability of your code and allows you to better control the changes to the website.
+
+ 3.) What is a selector? Give examples of at least three types of selectors.
+   - A Css selector is the html element or class object where the css properties and values are applied. Some examples of a selector include but are not limited to:
+    - h1
+    - p
+    - body
+    - ."elementname"
+
+ 4.) What is the box model?
+ 	- The box model is a good way to organize your html+css elements into easy to manage groups. One advantage to using the box model would be that you can change specific elements inside one box if desired, without affecting other elements on the page. 
+
+ 5.) Explain and give an example of the cascading effect of CSS.
+ 	- The Cascading effect can be described as the sequence in which changes will take place on a CSS file. The Browser will read and make changes to elements in order as they appear on the file. For example:
+
+ 	table {
+      border ="1"
+
+ 	} 
+
+ 	table {
+
+ 	  border = "0"
+ 	}
+
+ 	The result will be a table without a border. 
+
+ 6.) Name two CSS techniques that assist in responsive design. 
+
+ 	- Adding media queries
+ 	- setting the viewport in the meta tag
