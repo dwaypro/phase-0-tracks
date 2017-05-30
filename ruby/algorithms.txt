@@ -1,0 +1,65 @@
+Elevator (Release 0):
+
+Robot boot:
+get all available + performable robot tasks
+
+until task is received 
+do nothing 
+
+if task is received
+
+check robot task database for task + floor#
+
+if task exist in database perform task at the corresponding floor.
+
+if task doesnt exist in task database
+
+loop until task can be done on current floor
+
+ check if task can be done on current floor
+  perform task then store task + floor # to task database
+
+ if task cannot be performed on current floor go to elevator go to the next floor 
+  check if task can be done on current floor 
+
+if all floors have been checked and still cannot perform task, notify user and shutdown until further instruction.
+
+
+  define robot methods:
+
+  go to next floor 
+   current floor ++
+   details regarding robotic movements and sensors 
+
+
+
+Release 1 (Preparing coffee):
+
+check if coffee maker is plugged in
+ if plugged in continue
+ if not, plug in coffee maker and continue
+
+check if old coffee exists in coffee maker
+ if no old coffee continue 
+ if old coffee exists remove coffee and continue
+
+locate coffee filters
+ - place coffee filter in coffee maker 
+
+check water level 
+  - if sufficient water is present continue
+  - if insufficient water is present fill with water until sufficient and continue 
+
+ locate fresh coffee 
+  - if fresh coffee is available fill coffee filter until sufficient levels of coffee then continue
+  - if no fresh coffee is available, abort mission and cry
+
+  press power or on button to brew coffee
+  
+
+      
+
+
+
+
+
