@@ -1,0 +1,45 @@
+header {
+background-color: blue;
+
+padding: 5%;
+margin: 2%;
+margin-left: 0;
+}
+
+.column-1 {
+
+	
+background-image: url("index.jpeg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+
+
+width: 48%;
+vertical-align: top;
+display: inline-block;
+margin: .5%;
+
+
+}
+.column-2 {
+
+
+
+background-image: url("http://www.seriouseats.com/images/20080603-octodog.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+width: 48%;
+vertical-align: top;
+display: inline-block;
+margin: .5%;
+
+}
+
+footer {
+
+background-color: blue;
+
+
+}
