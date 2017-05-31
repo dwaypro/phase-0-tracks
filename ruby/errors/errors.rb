@@ -1,1 +1,4 @@
-puts "Hello world"
+test_var = nil
+puts test_var
+p test_var
+
