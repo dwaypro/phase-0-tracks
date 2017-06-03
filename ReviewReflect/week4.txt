@@ -1,0 +1,77 @@
+Variables
+
+1. What is a variable? Why might a programmer use a variable?
+	- Variables are essentially information that is stored and labeled for future use. Programmers use variables all the time in order to track changes, store user information, provide the user with updated information... etc the uses are endless. 
+
+2. If the value of first_name is "Abraham" and last_name is "Lincoln", explain the order in which Ruby will run the line full_name = first_name + last_name, and what the final result will be.
+	- when Ruby runs the line full_name = first_name + last_name it first will combine the two variables and then store/assign the first_name and last_name variables into full_name. full_name now contains a combined string. In the example provided AbrahamLincoln will be assigned to full name. Nothing will happen on the screen unless we also call the puts method on full_name in order to show the combined string AbrahamLincoln. 
+
+
+Data Types
+
+3. For each of the following data types, write a short definition and give at least one example of when you might use the data type in a program. (Don't use an example we've already provided.)
+
+    string
+     - basic text can be described as the string data type. This text can be assigned to a variable and used as a string of information.
+    integer
+     - Whole numbers make up the integer data type. the number 10 for example is a whole number and also an integer. 
+    float
+     - Float is the data type that can describe all values with potential decimal places. 3.14159 is a float value
+    nil
+     - typically means that the data type is missing or that the return value is 0 or nothing. Interestingly, ruby still allows for methods to be called on nil.
+    boolean
+     - Often used to control the flow of a program. Tend to evaluate to true or false. 
+
+Algorithms
+
+4. What is an algorithm?
+	- An algorithm is a set of instructions that is designed to get someone or a computer to an end result. 
+
+5. What are two common categories of algorithm in computer science? 
+   - The two common algorithm categories are Recursive algorithms and Iteration algorithms. Recursive algorithms solve a problem by first solving many smaller problems. Iteration algorithms repeat a process until the desired outcome is reached. 
+
+Methods 
+
+6. What is a method? Why might a programmer choose to use a method?
+	
+	- A method is a set of instructions that returns a value and is contained within an application. Often times a method is a peice of reusable code that can be invoked at several different instances of a program. 
+
+
+
+7. Define the following terms as they relate to a method. 
+
+    return value
+     - the value returned after the set of expressions is complete. 
+    side effect
+     - When a method does more than return a value, what it is doing is a side effect of that method. Useful for an application to do something,  but causes bugs when the side effects aren't understood and used inapropriately. 
+
+    parameter
+     - A parameter is a data requirement for a method to function. It is usually set immediately after defining a method inside parenthesis. Parameters determine the type and quantity of arguments. 
+
+    argument
+    - An argument is the information that is passed through when calling a method. Determined by the necessary parameters, this information is now readily available to the method and can be manipulated. 
+
+    implicit return
+    - An implicit return is the returning of information without explicitly telling a program to do so. For example, A method will implicitly return data that it has manipulated without you needing to call a return function. 
+
+8. What are global scope and method scope? How do those scopes impact the availability of data at different points in a program?
+Control Flow
+	- global scope is information that is readily available throughout the entire program. Method scope is information that is readily available only to the expressions within the method and not to the outside program. Methods need parameters and arguments which may be available to the outside program, but need to be passed into a method. 
+
+9. What is control flow? Why might a programmer choose to use flow control?
+	- control flow is used by a programmer to control how the program functions in certain scenarios. Often times a program needs specific information before it can continue on, it is wise, often necessary to check with control flow for the information. 
+
+10. Define the following terms as they relate to flow control.
+
+    loop
+     - repeats a sequence of instructions until a condition is met. 
+    if
+     - performs a task when a condition is met. 
+    else
+     - performs a task when a condition is not met. catches exceptions and continues on with the program.  
+    elsif
+     - performs a task when primary condition or preceeding condition has not been met. 
+    while
+     - repeats a sequence of instructions while a condition is unmet. 
+    until
+     - repeats a sequence of instructions until a condition is met. 
