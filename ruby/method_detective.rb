@@ -4,36 +4,41 @@
 # When there's more than one suspect who could have
 # committed the crime, add additional calls to prove it.
 
-# "iNvEsTiGaTiOn".<???>
-# => “InVeStIgAtIoN”
+"iNvEsTiGaTiOn".swapcase
+#=> “InVeStIgAtIoN”
 
-# "zom".<???>
-# => “zoom”
+"zom".insert(1, "o")
+#=> “zoom”
 
-# "enhance".<???>
-# => "    enhance    "
+ "enhance".center(20)
+#=> "    enhance    "
 
-# "Stop! You’re under arrest!".<???>
-# => "STOP! YOU’RE UNDER ARREST!"
+ "Stop! You’re under arrest!".upcase
+ #=> "STOP! YOU’RE UNDER ARREST!"
 
-# "the usual".<???>
-#=> "the usual suspects"
+ "the usual".insert(-1," suspects")
+ #=> "the usual suspects"
 
-# " suspects".<???>
-# => "the usual suspects"
+  " suspects".prepend("the usual ")
+  #=> "the usual suspects"
 
-# "The case of the disappearing last letter".<???>
-# => "The case of the disappearing last lette"
+  "The case of the disappearing last letter".chop
+ # => "The case of the disappearing last lette"
 
-# "The mystery of the missing first letter".<???>
-# => "he mystery of the missing first letter"
+  "The mystery of the missing first letter".strip[1..-1]
+  #=> "he mystery of the missing first letter"
 
-# "Elementary,    my   dear        Watson!".<???>
-# => "Elementary, my dear Watson!"
+  "Elementary,    my   dear        Watson!".squeeze(" ")
+ #  => "Elementary, my dear Watson!"
 
-# "z".<???>
-# => 122 
-# (What is the significance of the number 122 in relation to the character z?)
+  "z".codepoints
+  #=> 122 
 
-# "How many times does the letter 'a' appear in this string?".<???>
-# => 4
+  #can also be done with .replace("122").
+
+  #(What is the significance of the number 122 in relation to the character z?)
+puts"122 is the number of integer ordinals for the character z. x has 120 ordinals.
+	Every character is labled with an integer ordinal. a is at 97 and ! is at 33."
+
+ "How many times does the letter 'a' appear in this string?".count("a")
+ #=> 4
