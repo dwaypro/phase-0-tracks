@@ -1,5 +1,6 @@
-## set up hash that will be used throughout the program.
+# set up hash that will be used throughout the program.
 # Initialize variables with empty values at first
+# convert numeric data to integer
 
 post = {
 
