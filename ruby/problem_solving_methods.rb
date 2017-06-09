@@ -102,3 +102,24 @@ puts "enter a value... now:"
 response = gets.chomp.to_i
 search_array(arr, response)
 
+
+
+# declare list
+
+master_array = [1,2,3,5,4,7,8,9,100,51]
+
+# method for sorting smallest to largest
+
+def sort(master_array, sorted_array = [])
+ return sorted_array unless master_array.length > 0
+
+# get the min of the array 
+ smallest = master_array.min
+ # add to the array if array item is smallest
+ master_array.each {|e| sorted_array << e if e == smallest}
+ # remove from the array the old 
+ master_array.delete(smallest)
+ sort(master_array, sorted_array)
+end
+
+p sort master_array
