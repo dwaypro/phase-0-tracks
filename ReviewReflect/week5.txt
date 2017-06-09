@@ -1,0 +1,44 @@
+Data Structures
+
+1. Why are data structures useful in programming?
+
+	- Data structures are useful because they provide the programmer a way of organizing and manipulating larger quantities of data without having to assign each peice of data to a string or integer variable. 
+
+
+Arrays
+
+2. Define "array" and describe the characteristics of an array.
+	- An array is a data structure that is best used when storing and manipulating a large quantity of similar data. 
+
+3. Give two original examples of data sets that an array might be well-suited for.
+	- A list of grocery items 
+	- A list of items items in the kitchen 
+
+Hashes
+
+4. Define "hash" and describe the characteristics of a hash.
+	- A Hash is a data structure that is best used when storring data as key pairs, in order to be refferenced. 
+
+5. Give two original examples of data sets that a hash might be well-suited for.
+	- username and password
+	- A list of people and their corresponding pets
+
+
+
+Iteration
+
+6. Why is iteration useful?
+	- Iteration is useful because it allows the program to perform a function or series of functions on individual characters within a data structure. 
+
+7. Give an example of a real-life task that would require iteration if you wrote an algorithm for it.
+	- Accessing a couch within a living room within a house requires iteration. Or if all the silverware and you needed to access only the knives, forks, spoons or a combination of them all. 
+
+Blocks
+
+8. What is a block?
+ 	-A block is the code within some type of method. It could be within a defined ruby method or the block can be within class methods within brackets as well.
+
+9. What is a block parameter, and where does its value come from?
+	- A Block parameter is a parameter that came from the method itself and is now being used within the block. Usually the parameter comes from the argument that is passed through when the method is called. 
+
+
