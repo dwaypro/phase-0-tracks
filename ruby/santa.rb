@@ -1,9 +1,8 @@
 
 
 class Santa
-
-
-#reindeer_ranking = ["Rudolph", "Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"]
+attr_reader :age, :ethnicity
+attr_accessor :gender
 
 def speak
 	puts "Ho, ho, ho! Haaaaappy holidays!"
@@ -16,36 +15,22 @@ end
 def initialize(gender, ethnicity)
 	@gender = gender
 	@ethnicity = ethnicity
-
 	puts "Initializing Santa instance..."
 	end
-
-def gender
-	@gender
-end
-def gender=(new_gender)
-	@gender = new_gender
-end
-
 
 def celebrate_birthday
   @age = @age.to_i + 1
  puts"Santa is now #{@age}"
-
 end
 
-def age
-	@age
-end
 
 def reindeer_ranking
    @reindeer_ranking = ["Rudolph", "Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"]
-
 end
 
+
 def get_mad_at (reindeer)
-	p "Santa is mad at #{reindeer}"
-	
+	p "Santa is mad at #{reindeer}"	
    index = 0	
    duration = reindeer_ranking.length
  until index == duration
@@ -91,4 +76,6 @@ santa.celebrate_birthday
 santa.get_mad_at("Vixen")
 
 santa.gender = "male"
+p santas
+
 
