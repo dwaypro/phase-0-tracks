@@ -89,3 +89,23 @@ end
 
 
 pretty_method(grocery_hash)
+
+# Reflect
+
+
+#    What did you learn about pseudocode from working on this challenge?
+		# - I learned that pseudocode can be helpful, especially when clarifying potential confusion with a partner
+
+#    What are the tradeoffs of using arrays and hashes for this challenge?
+		# - using an array for this challenge would have involed iterating within an array within an array making it more complicated
+
+#    What does a method return?
+		# - A method implicitely return the last executed function. It also can be returned explicitely. 
+
+#    What kind of things can you pass into methods as arguments?
+		# - You can pass through methods as arguments, data structures and various data types as well as return values from other methods
+#    How can you pass information between methods?
+		# - you can call a method within a method inorder to receive and manipulate it's return value. You can also pass a method into a method and use it's return value
+#    What concepts were solidified in this challenge, and what concepts are still confusing?
+		# This challenge solidified the ability to pass and use information from methods inside methods.
+		
