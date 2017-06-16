@@ -10,7 +10,7 @@ class Puppy
   end
   def roll_over
   
-  
+
   p "rolls over"
   end
   def dog_years(int)
