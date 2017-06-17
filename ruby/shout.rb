@@ -17,7 +17,7 @@
 module Shout
 
 def yell_angrily(words)
-	p words + "!!!" + " >:["
+	p words + "!!!" + ">:["
 end
 
 def yelling_happily(words)
