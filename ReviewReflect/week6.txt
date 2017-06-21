@@ -1,0 +1,26 @@
+1. What are classes? Be sure to define the following terms in your explanation and describe the relationships between them:
+
+    class
+    	- A class is an object that contains a set of attributes and methods that may be called or written depending on the class methods behavior. 
+    state
+    	- The state of a class is described by it's instance variables, and their inherent scope. 
+    behavior
+    	- The behavior of a class is described by it's methods
+    instance variable
+    	- an Instance variable is created everytime a new class is created and is specific to that instance. This means that if the class was created a second time, the first variable would have nothing to do with the second class. 
+    instance method
+    	- An Instance method is a unique method called on a class instance. Like an instance variable, this method's scope is limited to the called Class. 
+
+2. What are attributes?
+		- Attributes can be defined as the parameters that are passed in when creating a new class. They are the externally visible declarations. Often times these attributes are manipulated by the class methods, depending on read and writability 
+
+3. Give an example of a real world object, and describe how you might assign its attributes if you were to design a class to represent that object.
+	- An object could be anything, a basketball for example. Everyone is generally familiar with the shape and color and size of a basketball. However, I've come across some red basketballs, as well as tiny child sized basketballs. The class would be the basketball and things like size, color, airpressure, material ..etc would be it's attributes. 
+
+4. What is the purpose of the initialize method? When does it run?
+	- The purpose of an initialize method is to pass the initial attributes to the class when the class is created. 
+
+5. What are modules?
+	- Modules are containers that organize a group of methods that can be called throughout a program. 
+6. What are the different ways you can use a module?
+	- By requiring a module at the begining of your program you are then able to have access to all of its methods when you need them. For example, if your application requires user input of a string you can encode that string by using a method granted by a module. T
