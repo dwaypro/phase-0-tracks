@@ -23,9 +23,14 @@ longestphrase = new LongestPhrase(["wide eyed with a heart filled with freight",
 function KeyChecker(obj, obj2){
 var length = 0;
 
+<<<<<<< HEAD
 var arr = obj.keys();
 
 console.log(arr);
+=======
+
+
+>>>>>>> 9974b4b8b4e9ea0a4c98094979152f8e15c7947b
 
 //loop
 //for (var i = 0; i < obj.length; i ++){
