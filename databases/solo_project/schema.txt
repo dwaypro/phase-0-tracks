@@ -1,0 +1,14 @@
+Orderguide
+	-item varchar(255)
+	-quantity
+	- available
+
+PFChangs
+	- item varchar(255)
+	- quantity
+	- available
+DairyQueen
+	- item varchar(255)
+	- quantity
+	- available
+		
