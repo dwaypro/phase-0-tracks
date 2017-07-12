@@ -1,0 +1,11 @@
+Learn jQuery
+ - Study Documentation (20 mins)
+ - test on a few elements at dwaypro.github.io
+ - Study Documentation (20mins)
+ - test on a few elements at dwaypro.github.io
+ - Study Documentation (20 mins)
+ - test on a few elements at dwaypro.github.io
+ - Study Documentation (20mins)
+ - test on a few elements at dwaypro.github.io
+ - Study Documentation (20mins)
+ - test on a few elements at dwaypro.github.io
