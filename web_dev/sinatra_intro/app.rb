@@ -36,7 +36,6 @@ get '/students' do
   end
   response
 end
-
 # write a GET route that retrieves
 # a particular student
 
@@ -44,3 +43,36 @@ get '/students/:id' do
   student = db.execute("SELECT * FROM students WHERE id=?", [params[:id]])[0]
   student.to_s
 end
+
+# write a get route that retrieves address
+get '/contact' do
+"1800 candy cane lane"
+end
+
+get '/great_job' do
+
+name = params[:name]
+if name
+"Good job, #{name}!"
+else
+  "Good job!"
+end
+end
+
+#Write a GET route that adds two numbers
+get '/add' do
+
+number1 = params[:number1].to_i
+number2 = params[:number2].to_i
+
+if number1 != nil && number2 != nil
+
+sum = number1 + number2
+
+"#{number1} + #{number2} = #{sum}"
+
+else
+"hello world"
+
+end
+end 
