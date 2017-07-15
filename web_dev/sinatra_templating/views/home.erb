@@ -1,15 +1,22 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Student Management System</title>
+  <title>Public School System</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Student Management System</h1>
-  <p>Welcome to the student management system.</p>
+  <h1>Public School System</h1>
+  <p>Welcome to the public school system.</p>
   <p>Click <a href="students/new">here</a> to create a new student.</p>
   <ul>
     <% @students.each do |student| %>
       <li><%= student['name'] %>, <%= student['age'] %></li>
+    <% end %>
+  </ul>
+  <p>Click <a href="teacher/new">here</a> to hire a new teacher.</p>
+  <ul>
+    <% @teachers.each do |teacher| %>
+      <li><%= teacher['name'] %>, <%= teacher['class'] %></li>
     <% end %>
   </ul>
 </body>
